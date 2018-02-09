@@ -4,7 +4,7 @@
 npm run build
 
 DIR=dist
-BUCKET=ngx-starter-kit.fashion.cloud
+BUCKET=<your-bucket-name>
 
 # configure aws cli
 aws configure set default.region eu-central-1
