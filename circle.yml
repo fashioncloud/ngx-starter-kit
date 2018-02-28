@@ -36,11 +36,11 @@ jobs:
           name: Run tests
           command: npm run lint
 
-      - deploy:
-          name: Deploy
-          command: |
-            if [ "${CIRCLE_BRANCH}" == "master" ]; then
-              ./scripts/deploy.sh
-            else
-              echo "Not deploying this branch"
-            fi
+    #   - deploy:
+    #       name: Deploy
+    #       command: |
+    #         if [ "${CIRCLE_BRANCH}" == "master" ]; then
+    #           ./scripts/deploy.sh
+    #         else
+    #           echo "Not deploying this branch"
+    #         fi
