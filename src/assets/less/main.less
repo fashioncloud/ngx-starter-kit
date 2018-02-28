@@ -1,6 +1,19 @@
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
 @text: black;
 
-
 body {
+    margin: 0;
     color: @text;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+mat-card {
+    max-width: 80%;
+    margin: 6em auto;
+    text-align: center;
 }
